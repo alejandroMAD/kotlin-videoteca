@@ -47,6 +47,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.btnSort.setOnClickListener {
             adapter.orderByName()
+            // TODO: Create UI and logic for CRUD operations
             //adapter.insertObject()
             //adapter.deleteObject()
             //adapter.modifyObject()
